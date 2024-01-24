@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, {useState} from 'react'
+import NotesZone from "./component/NotesZone/NotesZone"
+import DisplayZone from "./component/DisplayZone/DisplayZone"
+import ChatZone from "./component/ChatZone/ChatZone"
+import FormModal from "./component/FormModal/FormModal"
 function App() {
+  const [isFormModalOpen, setFormModalOpen] = useState(false);
+
+  const openFormModal = () => {
+    setFormModalOpen(true);
+  };
+  const closeFormModal = () => {
+    setFormModalOpen(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: "flex" }}>
+      <NotesZone 
+      showFormModal={openFormModal}
+      />
+      <DisplayZone />
+      <FormModal 
+       isOpen={isFormModalOpen} 
+       onClose={closeFormModal}
+       />
+      {/* <ChatZone /> */}
     </div>
   );
 }
