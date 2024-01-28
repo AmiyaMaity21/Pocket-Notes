@@ -77,7 +77,7 @@ const ChatZone = ({ chat, handleStorage }) => {
                     placeholder="Enter your text here...........">
                 </textarea>
                 <button className="sendbutton" onClick={sendChat}>
-                    <img style={{ width: "25px", height: "22px", marginRight: "5px", }} src={Send} alt="" />
+                    <img style={{ width: "28px", height: "22px", marginRight: "5px", }} src={Send} alt="" />
                 </button>
             </div>
         </div >
