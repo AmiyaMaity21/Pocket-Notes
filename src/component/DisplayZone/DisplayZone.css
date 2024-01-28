@@ -1,11 +1,12 @@
 .displayzone {
-    width: 75vw;
-    height: 100vh;
-    background: #DAE5F5;
-    display: flex;
+    width: 1190px;           
+    height: 100vh;            
+    background: #DAE5F5;      
+    display: flex;            
     flex-direction: column;
-    align-Items: center;
-    justify-content: center;
+    align-items: center;      
+    justify-content: center;  
+    margin: 0 auto;  
 }
 
 .displaybody {

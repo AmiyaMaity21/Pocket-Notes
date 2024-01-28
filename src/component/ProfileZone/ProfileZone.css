@@ -1,10 +1,10 @@
 .profilezone {
-    width: 25vw;
+    width: 350px;
     height: 100vh;
     background: white;
     box-sizing: border-box;
     font-weight: 500;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .heading {
@@ -23,7 +23,6 @@
     cursor: pointer;
     gap: 20px;
     border-radius: 16px;
-    /* background: `$ {currentUser===index ? "rgba(47, 47, 47, 0.17)": ""}` */
 }
 
 .avataricon {
@@ -45,7 +44,7 @@
     border: none;
     margin: 24px;
     cursor: pointer;
-    position: absolute;
-    left: 17rem;
+    position: fixed;
+    left: 15rem;
     bottom: 0;
 }

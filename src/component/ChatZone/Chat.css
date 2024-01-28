@@ -1,11 +1,11 @@
 .chatzone {
-    width: 75vw;
+    width: 1190px;
     height: 100vh;
     background: #DAE5F5;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .chathead {
@@ -45,16 +45,16 @@
 
 .chatinputarea {
     background: #001F8B;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
 }
 
 .textarea {
-    width: 70.5vw;
+    width: 1117px;
     height: 15vh;
     margin: 20px;
-    padding: 15px 15px;
+    padding: 15px;
     border-radius: 6px;
     border: none;
     outline: none;
@@ -62,7 +62,7 @@
 }
 
 .sendbutton {
-    position: absolute;
+    position: fixed;
     right: 10px;
     bottom: 20px;
     padding: 10px 20px;
