@@ -1,0 +1,62 @@
+.formmodal {
+    width: 450px;
+    height: 185px;
+    padding: 16px;
+    background: #FFFFFF;
+    font-size: 20px;
+    margin-top: 35vh;
+    margin-left: 20vw;
+    position: absolute;
+}
+
+.groupname,
+.choosecolour {
+    display: flex;
+    gap: 28px;
+    margin: 16px 0px;
+}
+
+.choosecolorbutton {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    height: 30px;
+    width: 30px;
+    border-Radius: 100%;
+    border: none;
+}
+
+.violet {
+    background: #B38BFA;
+}
+
+.pink {
+    background: #FF79F2;
+}
+
+.skyblue {
+    background: #43E6FC;
+}
+
+.orange {
+    background: #F19576;
+}
+
+.blue {
+    background: #0047FF;
+}
+
+.lightblue {
+    background: #6691FF;
+}
+
+.create {
+    margin-Left: 21vw;
+    background: #001F8B;
+    border: none;
+    color: white;
+    padding: 7px 36px;
+    border-radius: 12px;
+}

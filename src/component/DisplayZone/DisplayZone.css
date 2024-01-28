@@ -1,0 +1,41 @@
+.displayzone {
+    width: 75vw;
+    height: 100vh;
+    background: #DAE5F5;
+    display: flex;
+    flex-direction: column;
+    align-Items: center;
+    justify-content: center;
+}
+
+.displaybody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.displayimg {
+    width: 500px;
+    height: 250px;
+}
+
+.bodyhead {
+    font-Size: 30px;
+    font-Weight: 700;
+}
+
+.footer {
+    display: flex;
+    gap: 5px;
+}
+
+.subhead {
+    font-Weight: 500;
+}
+
+.encrypted {
+    width: 14px;
+    height: 18px;
+}
